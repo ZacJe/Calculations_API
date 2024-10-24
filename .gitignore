@@ -1,0 +1,54 @@
+# Node.js (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.cache
+
+# Python (backend)
+backend/__pycache__/
+backend/*.pyc
+backend/env/
+backend/.env
+backend/instance/
+backend/calculations.db
+
+# Docker
+docker-compose.override.yml
+*.log
+docker-compose*.yaml
+*.log
+**/.env
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Tests coverage reports
+coverage/
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+__pycache__/
+*.cover
+*.coverage
+*.log
+.cache
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Environment variables and secrets
+*.env
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# Virtualenv
+venv/
