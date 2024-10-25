@@ -4,6 +4,16 @@ frontend/build/
 frontend/.env
 frontend/.cache
 
+# Next.js et autres configurations frontend
+frontend/.next/
+frontend/out/
+frontend/.pnp
+frontend/pnpm-debug.log*
+frontend/*.tsbuildinfo
+frontend/coverage
+frontend/.DS_Store
+frontend/Thumbs.db
+
 # Python (backend)
 backend/__pycache__/
 backend/*.pyc
@@ -16,7 +26,6 @@ backend/calculations.db
 docker-compose.override.yml
 *.log
 docker-compose*.yaml
-*.log
 **/.env
 
 # VS Code
@@ -35,14 +44,18 @@ htmlcov/
 __pycache__/
 *.cover
 *.coverage
-*.log
 .cache
 nosetests.xml
 coverage.xml
 *.coveragerc
+*.log
 
 # Environment variables and secrets
 *.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # pyenv
 .python-version

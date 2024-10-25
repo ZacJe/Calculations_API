@@ -1,0 +1,28 @@
+# Ignorer le dossier node_modules pour éviter les conflits et réduire la taille de l'image
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorer les fichiers de construction et les caches locaux
+.next
+out
+.build
+.cache
+
+# Ignorer les fichiers de configuration de l'IDE
+.idea
+.vscode
+*.swp
+
+# Ignorer les fichiers de configuration système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers d'environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

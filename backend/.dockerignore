@@ -1,0 +1,25 @@
+# Ignorer le dossier de cache de Python
+__pycache__/
+*.py[cod]
+
+# Ignorer les logs et caches
+*.log
+.cache
+*.sqlite3  # Exclure la base de données locale si elle est générée
+
+# Ignorer l'environnement virtuel
+venv/
+env/
+
+# Ignorer les fichiers de configuration de l'IDE
+.idea
+.vscode
+*.swp
+
+# Ignorer les fichiers de configuration système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers d'environnement
+.env
+.env.local

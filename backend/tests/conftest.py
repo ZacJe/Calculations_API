@@ -1,6 +1,7 @@
 import pytest
 import sqlite3
 
+# Réinitialisation de la base de données
 @pytest.fixture(autouse=True)
 def reset_db():
     conn = sqlite3.connect('calculations.db')

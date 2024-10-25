@@ -1,5 +1,6 @@
 from app.services.calculator import rpn_calculator
 
+# Test de la fonction de calcul
 def test_rpn_calculator():
     assert rpn_calculator(["2", "3", "+"]) == 5
     assert rpn_calculator(["10", "5", "/"]) == 2
